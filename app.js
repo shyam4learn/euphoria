@@ -12,7 +12,7 @@ app.get('/', function(req, res){
   res.send('Hello!')
 });
 
-app.get('/books', function(req, res){
+app.get('/schedule', function(req, res){
   res.send('Books!')
 });
 
