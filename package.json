@@ -1,0 +1,24 @@
+{
+  "name": "euphoria",
+  "version": "1.0.0",
+  "description": "ECC website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shyam4learn/euphoria.git"
+  },
+  "author": "shyam vadeyar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shyam4learn/euphoria/issues"
+  },
+  "homepage": "https://github.com/shyam4learn/euphoria#readme",
+  "dependencies": {
+    "express": "^4.15.2"
+  },
+  "devDependencies": {}
+}
