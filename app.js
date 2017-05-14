@@ -17,6 +17,6 @@ app.get('/books', function(req, res){
 });
 
 //app.set('port', process.env.PORT || 5000);
-app.listen(process.env.PORT, function(err){
+app.listen(process.env.PORT || 5000, function(err){
   console.log('Running server on:' + process.env.PORT);
 });
