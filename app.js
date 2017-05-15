@@ -2,7 +2,7 @@ var express = require('express');
 
 var app = express();
 
-//var port = 5000;
+var port = process.env.PORT || 5000;
 
 app.use(express.static('public'));
 app.use(express.static('src/views'));
@@ -16,7 +16,6 @@ app.get('/schedule', function(req, res){
   res.send('Books!')
 });
 
-//app.set('port', process.env.PORT || 5000);
-app.listen(process.env.PORT || 5000, function(err){
-  console.log('Running server on:' + process.env.PORT);
+app.listen(port || 5000, function(err){
+  console.log('Running server on:' + port);
 });
