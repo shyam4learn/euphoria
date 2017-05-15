@@ -30,6 +30,10 @@ a.active {
 a {
   color: #fed136;
 }
+
+a.url {
+  color: blue;
+}
 a:hover,
 a:focus,
 a:active,
