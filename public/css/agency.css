@@ -150,8 +150,27 @@ fieldset[disabled] .btn-xl.active {
   background-color: #222222;
   border-color: transparent;
 }
+/*shyam*/
+.navbar-custom1 {
+    background-color: #222222;
+    padding: 10px 0;
+}
+
+.navbar-custom1 .navbar-brand {
+  color: #fed136;
+  font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+  font-size: 1.5em;
+}
+
+.navbar-custom1 .navbar-brand:hover,
+.navbar-custom1 .navbar-brand:focus,
+.navbar-custom1 .navbar-brand:active,
+.navbar-custom1 .navbar-brand.active {
+  color: #fec503;
+}
+
 .navbar-custom .navbar-brand {
-  color: #FFFFFF;
+  color: #fed136;
   font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
 }
 .navbar-custom .navbar-brand:hover,
@@ -207,7 +226,7 @@ fieldset[disabled] .btn-xl.active {
     border: none;
   }
   .navbar-custom .navbar-brand {
-    font-size: 4em;
+    font-size: 2em;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
