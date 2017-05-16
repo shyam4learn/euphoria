@@ -18,7 +18,8 @@
   },
   "homepage": "https://github.com/shyam4learn/euphoria#readme",
   "dependencies": {
-    "express": "^4.15.2"
+    "express": "^4.15.2",
+    "mongodb": "^2.2.26"
   },
   "devDependencies": {}
 }
